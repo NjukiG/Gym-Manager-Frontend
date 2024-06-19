@@ -48,6 +48,10 @@ THis project uses react.js for the frontend and a Golang API for backend.
 It uses tailwind for styling and components from HyperUI.
 Public exercises and youtube videos API from Rapid API.
 
+## Live Site
+
+https://gym-manager.netlify.app/
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
