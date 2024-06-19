@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# GYM MANAGER FRONTEND
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a gym management website.
 
-## Available Scripts
+It's where all gym users are able to visit to be regustered for membership, join gym classes and see their attendance.
 
-In the project directory, you can run:
+Users are mainly the administrators and are able to track all their members, the classes the are enrolled in and track the attendance.
 
-### `npm start`
+It uses a Goland backend for the registration, memberships, classes and attendance.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The landing page before registration consumes a public exercises API to show the exercises offered and videos of the same should the users be interested.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Requirements
 
-### `npm test`
+- To be able to run this project on your machine, you need to clone the API as well and run it as this frontend also runs.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Make sure you have the following installed on your system:
 
-### `npm run build`
+- Node.js (version 14.x or later)
+- npm
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. CLone the project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+  git clone git@github.com:NjukiG/Gym-Manager-Frontend.git
+  cd Gym-Manager-Frontend
+```
 
-### `npm run eject`
+2. Install dependencies.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```sh
+    npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. To start the development server, run:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```sh
+   npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The API will be available at http://localhost:4000.
 
-## Learn More
+## Project Brief
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+THis project uses react.js for the frontend and a Golang API for backend.
+It uses tailwind for styling and components from HyperUI.
+Public exercises and youtube videos API from Rapid API.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License. See the LICENSE file for details.
